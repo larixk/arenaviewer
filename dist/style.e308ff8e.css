@@ -1,0 +1,50 @@
+body {
+	padding: 50vh 5vw 100vh 5vw;
+	background: #0a0a0a;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Vesper Libre', serif;
+}
+
+h1 {
+	position: fixed;
+	color: #222;
+	font-size: 10vw;
+	top: 2vh;
+	left: 2vw;
+	text-align: center;
+	width: 96vw;
+	line-height: 0.85em;
+}
+
+img {
+	position: relative;
+	max-width: 100%;
+	display: block;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+
+img:nth-child(2n + 1) {
+	left: 15vw;
+}
+
+img:nth-child(3n) {
+	left: -15vw;
+}
+
+img:nth-child(5n) {
+	left: 30vw;
+}
+
+img:nth-child(2n) {
+	top: -5vh;
+}
+
+img:nth-child(3n + 1) {
+	top: -5vh;
+}
+
+img:nth-child(5n + 2) {
+	top: 20vh;
+}
